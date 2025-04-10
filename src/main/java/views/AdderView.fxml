@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.AdderController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="First Number: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="firstNumber" />
+            <Label text="Second Number:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="secondNumber" />
+         </children>
+      </HBox>
+      <Button fx:id="addButton" mnemonicParsing="false" onAction="#addNumbers" text="Add Them!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label text="Result: ">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="ResultSum" text="0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
