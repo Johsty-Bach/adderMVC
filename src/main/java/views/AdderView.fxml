@@ -16,16 +16,16 @@
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="firstNumber" />
+            <TextField id="firstNumberInputField" fx:id="firstNumber" />
             <Label text="Second Number:">
                <font>
                   <Font size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="secondNumber" />
+            <TextField id="secondNumberInputField" fx:id="secondNumber" />
          </children>
       </HBox>
-      <Button fx:id="addButton" mnemonicParsing="false" onAction="#addNumbers" text="Add Them!">
+      <Button id="addNumbersButton" fx:id="addButton" mnemonicParsing="false" onAction="#addNumbers" text="Add Them!">
          <font>
             <Font size="24.0" />
          </font>
@@ -37,7 +37,7 @@
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label fx:id="ResultSum" text="0">
+            <Label id="resultLabel" fx:id="ResultSum" text="0">
                <font>
                   <Font size="48.0" />
                </font>

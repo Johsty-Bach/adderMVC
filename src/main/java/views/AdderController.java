@@ -49,6 +49,7 @@ public class AdderController {
       {
     	  firstNumber.textProperty().set("");
       }
+      firstNumber.textProperty().set("");
       return amt;
     }
     
@@ -65,6 +66,7 @@ public class AdderController {
       {
     	  secondNumber.textProperty().set("");
       }
+	  secondNumber.textProperty().set("");
       return amt;
     }
     
