@@ -66,7 +66,6 @@ public class TestAdderView {
 		checkAddNumbers(robot, "1.5", "2.5", "4");
 		checkAddNumbers(robot, "-1", "1", "0");
 		checkAddNumbers(robot, "-5", "6", "1");
-
 	}
 	
 }
