@@ -68,4 +68,8 @@ public class TestAdderView {
 		checkAddNumbers(robot, "-5", "6", "1");
 	}
 	
+	@Test
+	public void testFail(FxRobot robot) {
+		checkAddNumbers(robot, "a", "b", "0");
+	}
 }
